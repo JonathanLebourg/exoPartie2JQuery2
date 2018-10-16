@@ -11,14 +11,14 @@
 
   <div class="exercice">
     <h1>Exercice 2 JQuery - Partie 2</h1>
-    <p>Au clic sur le bouton, afficher une boite de dialogue avec le message de votre choix.</p>
+    <p>Au double clic, modifier la largeur de l'image à 500px.</p>
   </div>
 
   <img src="images/image.jpg" id="image" />
 
 <script>
-   $("#image").dblclick(function(){
-       $("#image").width("500");
+   $("#image").dblclick(function(){ // au double click, la width/largeur de l'image augmente de 500px
+       $("#image").width("500"); // pas besoin de spécifier px, unité de base
    })
 </script>
 </body>
